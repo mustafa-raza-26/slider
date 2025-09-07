@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#slider{
+    width: auto;
+    height: 546px;
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid red;
+    color: #ffffff;
+    background-size: cover;
+    background-position: center;
+    background-image: url('img/img1.jpg');
+}
+#slider>button>i{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+
+/* .slider>img{
+    margin: 0;
+    padding: 0;
+    width: 1279px;
+    height: 546px;
+} */
