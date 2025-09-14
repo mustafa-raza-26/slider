@@ -3,9 +3,18 @@
     padding: 0;
 }
 
+h1{
+    padding: 20px;
+    font-style: italic;
+    color: #ffffff;
+    text-align: center;
+    background-color: #3d4d5d;
+}
 #slider{
-    width: auto;
-    height: 546px;
+    margin-top: 80px;
+    margin-left: 450px;
+    width: 400px;
+    height: 300px;
     display: flex;
     font-size: 30px;
     text-align: center;
@@ -14,19 +23,9 @@
     border: 1px solid red;
     color: #ffffff;
     background-size: cover;
-    background-position: center;
     background-image: url('img/img1.jpg');
 }
 #slider>button>i{
     font-size: 30px;
     cursor: pointer;
 }
-
-
-
-/* .slider>img{
-    margin: 0;
-    padding: 0;
-    width: 1279px;
-    height: 546px;
-} */
